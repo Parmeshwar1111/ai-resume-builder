@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================= */
+/* PRINT SETTINGS (PUPPETEER)
+/* ============================= */
+@media print {
+  /* A4 page setup */
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+
+  body {
+    background: #ffffff !important;
+  }
+
+  /* Hide UI-only elements */
+  #no-print {
+    display: none !important;
+  }
+
+  /* Resume container */
+  #print-area {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* Allow natural multi-page flow */
+  .resume-content {
+    display: block ;
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    position: static !important;
+    page-break-inside: auto !important;
+  }
+
+  /* Prevent layout issues in PDF */
+  .resume-content *,
+  #print-area * {
+    float: none !important;
+    transform: none !important;
+  }
+
+  /* Remove shadows for clean PDF */
+  .shadow,
+  .shadow-lg,
+  .shadow-xl {
+    box-shadow: none !important;
+  }
+}
