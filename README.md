@@ -95,12 +95,14 @@ cd resume_frontend
 npm install
 npm run dev
 
-2️⃣ Run PDF Generation Service (Node.js)
+###2️⃣ Run PDF Generation Service (Node.js)
+
 cd resume-pdf-service
 npm install
 npm start
 
-3️⃣ Run Backend Service (Spring Boot)
+###3️⃣ Run Backend Service (Spring Boot)
+
 cd resume-ai-backend
 mvn spring-boot:run
 
