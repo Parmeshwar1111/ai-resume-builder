@@ -8,7 +8,7 @@ This project is built using a modern **full-stack architecture** with:
 - **Spring Boot** for backend business logic and data handling
 
 ---
-
+ 
 ## 📁 Project Structure 
 ai-resume-builder/
 │
