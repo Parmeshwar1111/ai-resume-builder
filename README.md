@@ -9,7 +9,7 @@ This project is built using a modern **full-stack architecture** with:
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 ai-resume-builder/
 │
 ├── resume_frontend/ # React frontend
